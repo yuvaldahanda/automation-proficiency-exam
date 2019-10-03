@@ -31,7 +31,7 @@ class SelenuimInfra{
     }
 
 // Click on element
-    async clickElement(locatorType = "id" , locatorValue = " " , element , fromElement) {
+    async clickElement(locatorType , locatorValue  , element , fromElement) {
         try {
             if(!element){
                 if(fromElement){
