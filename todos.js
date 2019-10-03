@@ -125,12 +125,10 @@ class todoPage {
 
 }
 
+module.exports = todoPage
 
 
 
 
 
 
-
-let a = new todoPage("https://elevation-local-todo.herokuapp.com")
-a.insertTwoDeleteFirst("blala", "bubu")
